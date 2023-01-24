@@ -8,8 +8,11 @@
 </head>
 <body>
     <form action="/submit-form" method="post">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name"><br>
+  <label for="fname">First Name:</label>
+  <input type="text" id="fname" name="fname"><br>
+
+  <label for="lname">Last Name:</label>
+  <input type="text" id="lname" name="lname"><br>
 
   <label for="email">Email:</label>
   <input type="email" id="email" name="email"><br>
@@ -22,6 +25,21 @@
   <label for="male">Male</label><br>
   <input type="radio" id="female" name="gender" value="female">
   <label for="female">Female</label><br>
+  <input type="radio" id="lgbtq" name="gender" value="lgbtq">
+  <label for="lgbtq">lgbtq+</label><br>
+   
+  <label for="bdate">Date of Birth:</label>
+  <input type="date" id="bdate" name="bdate">
+
+  <label for="checkbox">Programming Langauges</label>
+  <input type="checkbox" id="pl1" name="pl1" value="C">
+  <label for="pl1">C</label><br>
+  <input type="checkbox" id="pl2" name="pl2" value="Java">
+  <label for="pl2">Java</label><br>
+  <input type="checkbox" id="pl3" name="pl3" value="Python">
+  <label for="pl3">Python</label><br>
+  <input type="checkbox" id="pl4" name="pl4" value="html">
+  <label for="pl4">Html</label><br>
 
   <label for="country">Country:</label>
   <select id="country" name="country">
@@ -30,8 +48,8 @@
     <option value="UK">UK</option>
   </select><br>
 
-  <label for="message">Message:</label>
-  <textarea id="message" name="message"></textarea><br>
+  <label for="addr">Address:</label>
+  <textarea id="addr" name="addr"></textarea><br>
 
   <input type="submit" value="Submit">
 </form>
